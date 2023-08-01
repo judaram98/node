@@ -30,4 +30,4 @@ Mayus.prototype._transform = function (chunk, codif, cb) {
 };
 
 let mayus = new Mayus();
-readableStream.pipe(mayus).pipe(process.stdout);
+readableStream.pipe(mayus).pipe(process.stdouts);
